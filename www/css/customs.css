@@ -1,0 +1,23 @@
+.button-circle {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 20px;
+  /*color: #fff;*/
+  /*line-height: 50px;*/
+  text-align: center;
+  /*background: #000;*/
+  text-decoration: none;
+}
+
+/*.button-circle:hover {
+  background: #333;
+}
+*/
+
+.bottom-right {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
