@@ -1,5 +1,5 @@
 <ion-view title="Add Xtremer" id="page12">
-    <ion-content padding="true" class="has-header">
+    <ion-content padding="true" scroll="true" class="has-header">
         <form class="list">
             <label class="item item-input">
                 <i class="icon ion-search placeholder-icon"></i>
@@ -7,9 +7,9 @@
             </label>
         </form>
         <ion-list>
-            <ion-item ui-sref="menu.xtremer">Item 1</ion-item>
-            <ion-item ui-sref="menu.xtremer">Item 2</ion-item>
-            <ion-item ui-sref="menu.xtremer">Item 3</ion-item>
+            <ion-item ui-sref="menu.xtremer" ng-repeat="xtremer in xtremers">
+                {{xtremer.title}}
+            </ion-item>
         </ion-list>
     </ion-content>
 </ion-view>

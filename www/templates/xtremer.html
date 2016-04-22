@@ -2,9 +2,9 @@
     <ion-content padding="true" scroll="false" class="has-header">
         <a ui-sref="menu.addXtremer" id="xtremer-button17" class="button button-positive  button-circle bottom-right">+</a>
         <ion-list>
-            <ion-item ui-sref="menu.xtremerController">Item 1</ion-item>
-            <ion-item ui-sref="menu.xtremerController">Item 2</ion-item>
-            <ion-item ui-sref="menu.xtremerController">Item 3</ion-item>
+            <ion-item ui-sref="menu.xtremerController" ng-repeat="xtremer in xtremers">
+                {{xtremer.title}}
+        	</ion-item>
         </ion-list>
     </ion-content>
 </ion-view>

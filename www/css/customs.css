@@ -1,5 +1,5 @@
 .button-circle {
-  /*display: block;*/
+  display: block;
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -18,7 +18,7 @@
 */
 
 .bottom-right {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   right: 10px;
 }
