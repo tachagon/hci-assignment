@@ -218,6 +218,50 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.audioController.mode', {
+      url: '/audio-mode',
+      views: {
+        'mode-tab': {
+          templateUrl: 'templates/audio/mode-tab.html',
+          controller: 'audio-mode'
+        }
+      }
+    })
+
+  .state('menu.audioController.list', {
+    url: '/audio-list',
+    views: {
+      'list-tab': {
+        templateUrl: 'templates/audio/list-tab.html',
+        controller: 'audio-list'
+      }
+    }
+  })
+
+  .state('menu.audioController.volume', {
+    url: '/audio-volume',
+    views: {
+      'volume-tab': {
+        templateUrl: 'templates/audio/volume-tab.html',
+        controller: 'audio-volume'
+      }
+    }
+  })
+
+  .state('menu.audioController.settings', {
+    url: '/audio-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/audio/settings-tab.html',
+        controller: 'audio-settings'
+      }
+    }
+  })
+
+  
+
+
+
 $urlRouterProvider.otherwise('/home')
 
 
