@@ -161,15 +161,11 @@ angular.module('app.controllers', [])
 
 })
 
-.controller('audio-tabs', function($scope){
+.controller('audio-home', function($scope){
 
 })
 
-.controller('audio-mode', function($scope){
-
-})
-
-.controller('audio-list', function($scope){
+.controller('audio-music', function($scope){
 
 })
 

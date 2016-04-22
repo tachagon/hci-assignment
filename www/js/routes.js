@@ -218,22 +218,22 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('menu.audioController.mode', {
-      url: '/audio-mode',
+  .state('menu.audioController.home', {
+      url: '/audio-home',
       views: {
-        'mode-tab': {
-          templateUrl: 'templates/audio/mode-tab.html',
-          controller: 'audio-mode'
+        'home-tab': {
+          templateUrl: 'templates/audio/home-tab.html',
+          controller: 'audio-home'
         }
       }
     })
 
-  .state('menu.audioController.list', {
-    url: '/audio-list',
+  .state('menu.audioController.music', {
+    url: '/audio-music',
     views: {
-      'list-tab': {
-        templateUrl: 'templates/audio/list-tab.html',
-        controller: 'audio-list'
+      'music-tab': {
+        templateUrl: 'templates/audio/music-tab.html',
+        controller: 'audio-music'
       }
     }
   })
