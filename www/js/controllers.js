@@ -24,7 +24,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('vDOCtrl', function($scope) {
-	$scope.xtremer[
+	$scope.vdos = [
 		{ title: "Sony DVP-SR660P DVD Player"},
 		{ title: "Sony BDP-S1100 Blu Ray Player"},
 		{ title: "Sony BDP-S1200 Blu Ray Player"},
@@ -42,7 +42,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('xtremerCtrl', function($scope) {
-	$scope.xtremer[
+	$scope.xtremers = [
 		{ title: "Xtreamer MK1"},
 		{ title: "Xtreamer Pro"},
 		{ title: "Xtreamer Ultra"},
@@ -97,7 +97,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('addVDOCtrl', function($scope) {
-	$scope.xtremer[
+	$scope.vdos = [
 		{ title: "Sony DVP-SR370 DVD Player"},
 		{ title: "Sony DVP-SR660P DVD Player"},
 		{ title: "Sony BDP-S1500 Blu-Ray Video Player"},
@@ -112,7 +112,7 @@ angular.module('app.controllers', [])
 })
 
 .controller('addXtremerCtrl', function($scope) {
-	$scope.xtremer[
+	$scope.xtremers = [
 		{ title: "Xtreamer MK1"},
 		{ title: "Xtreamer eTRAYz"},
 		{ title: "Xtreamer Pro"},
@@ -158,5 +158,21 @@ angular.module('app.controllers', [])
 })
 
 .controller('tv-settings', function($scope){
+
+})
+
+.controller('audio-home', function($scope){
+
+})
+
+.controller('audio-music', function($scope){
+
+})
+
+.controller('audio-volume', function($scope){
+
+})
+
+.controller('audio-settings', function($scope){
 
 })
