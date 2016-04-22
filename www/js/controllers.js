@@ -1,9 +1,9 @@
 angular.module('app.controllers', [])
-  
+
 .controller('homeCtrl', function($scope) {
 
 })
-   
+
 .controller('tVCtrl', function($scope) {
 	$scope.tvs = [
 		{ title: "SAMSUNG 32 in. UA32FH4003" },
@@ -12,7 +12,7 @@ angular.module('app.controllers', [])
 		{ title: "SAMSUNG 55 in. UA55J6200AK" }
 	];
 })
-   
+
 .controller('digitalTVCtrl', function($scope) {
 	$scope.tvs = [
 		{ title: "SAMSUNG 32 in. UA32J4003AK" },
@@ -22,7 +22,7 @@ angular.module('app.controllers', [])
 		{ title: "SAMSUNG 55 in. UA55JU6600K" }
 	];
 })
-      
+
 .controller('vDOCtrl', function($scope) {
 	$scope.xtremer[
 		{ title: "Sony DVP-SR660P DVD Player"},
@@ -32,7 +32,7 @@ angular.module('app.controllers', [])
 		{ title: "Sony BDP- S5500 Blu-Ray Player"}
 	];
 })
-   
+
 .controller('audioCtrl', function($scope) {
 	$scope.audios = [
 		{ title: "SHAKE-X1D" },
@@ -40,7 +40,7 @@ angular.module('app.controllers', [])
 		{ title: "GTK-N1BT"  }
 	];
 })
-   
+
 .controller('xtremerCtrl', function($scope) {
 	$scope.xtremer[
 		{ title: "Xtreamer MK1"},
@@ -50,11 +50,11 @@ angular.module('app.controllers', [])
 		{ title: "Xtreamer Prodigy 4K"}
 	];
 })
-   
+
 .controller('menu2Ctrl', function($scope) {
 
 })
-   
+
 .controller('addAudioCtrl', function($scope) {
 	$scope.audios = [
 		{ title: "SHAKE-X1D" },
@@ -67,7 +67,7 @@ angular.module('app.controllers', [])
 		{ title: "GTK-N1BT"  }
 	];
 })
-   
+
 .controller('addDigitalTVCtrl', function($scope) {
 	$scope.tvs = [
 		{ title: "SAMSUNG 24 in. UA24H4003" },
@@ -81,7 +81,7 @@ angular.module('app.controllers', [])
 		{ title: "SAMSUNG 55 in. UA55JU6600K" }
 	];
 })
-   
+
 .controller('addTVCtrl', function($scope) {
 	$scope.tvs = [
 		{ title: "SAMSUNG 24 in. UA24H4003" },
@@ -95,7 +95,7 @@ angular.module('app.controllers', [])
 		{ title: "SAMSUNG 55 in. UA55JU6600K" }
 	];
 })
-   
+
 .controller('addVDOCtrl', function($scope) {
 	$scope.xtremer[
 		{ title: "Sony DVP-SR370 DVD Player"},
@@ -110,7 +110,7 @@ angular.module('app.controllers', [])
 		{ title: "Sony BDP- S5500 Blu-Ray Player"}
 	];
 })
-   
+
 .controller('addXtremerCtrl', function($scope) {
 	$scope.xtremer[
 		{ title: "Xtreamer MK1"},
@@ -124,24 +124,39 @@ angular.module('app.controllers', [])
 		{ title: "Xtreamer Prodigy 4K"}
 	];
 })
-   
+
 .controller('audioControllerCtrl', function($scope) {
 
 })
-   
+
 .controller('tVControllerCtrl', function($scope) {
 
 })
-   
+
 .controller('digitalTVControllerCtrl', function($scope) {
 
 })
-   
+
 .controller('vDOControllerCtrl', function($scope) {
 
 })
-   
+
 .controller('xtremerControllerCtrl', function($scope) {
 
 })
- 
+
+.controller('tv-keypad', function($scope){
+
+})
+
+.controller('tv-volume', function($scope){
+
+})
+
+.controller('tv-favorite', function($scope){
+
+})
+
+.controller('tv-settings', function($scope){
+
+})
