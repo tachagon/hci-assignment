@@ -1,5 +1,5 @@
 <ion-view title="Add TV" id="page10">
-    <ion-content padding="true" class="has-header">
+    <ion-content padding="true" scroll="true" class="has-header">
         <form class="list">
             <label class="item item-input">
                 <i class="icon ion-search placeholder-icon"></i>
@@ -7,9 +7,9 @@
             </label>
         </form>
         <ion-list>
-            <ion-item ui-sref="menu.tV">Item 1</ion-item>
-            <ion-item ui-sref="menu.tV">Item 2</ion-item>
-            <ion-item ui-sref="menu.tV">Item 3</ion-item>
+            <ion-item ui-sref="menu.tV" ng-repeat="tv in tvs">
+                {{tv.title}}
+            </ion-item>
         </ion-list>
     </ion-content>
 </ion-view>
