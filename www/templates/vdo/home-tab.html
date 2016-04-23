@@ -1,7 +1,32 @@
 <ion-view view-title="Home">
   <ion-content class="padding" scroll="false">
-    <h1>Home</h1>
 
-    <a href="" class="button button-balanced button-circle">ADD</a>
+    <form class="list">
+    	<div align="center"> 00:00:00/1:30:00</div>
+         <ion-item class="range range-positive">
+             <i class="icon ion-android-time"></i>
+             <input type="range" value="50" min="0" max="100">
+         </ion-item>
+     </form>
+
+    <hr><br><br>
+	
+	<div class="row button-bar" style="position: absolute;left: 50%;margin-left: -133px;">
+		<a href="#" class="video-play-button button-large" style="margin-right: 20px"><i class="icon ion-android-checkbox-blank"></i></a>
+		<a href="#" class="video-play-button button-large"><i class="icon ion-ios-play"></i></a>
+		<a href="#" class="video-play-button button-large" style="margin-left: 20px"><i class="icon ion-ios-pause"></i></a>
+	</div>
+	<br><br><br><br><br><br>
+
+    <div class="row button-bar" style="position: absolute;left: 50%;margin-left: -162px;">
+        <a href="#" class="video-play-button button-large" style="margin-right: 10px"><i class="icon ion-ios-skipbackward"></i></a>
+        <a href="#" class="video-play-button button-large" style="margin-right: 10px"><i class="icon ion-ios-skipforward"></i></a>
+        <a href="#" class="video-play-button button-large" style="margin-left: 10px"><i class="icon ion-ios-rewind"></i></a>
+        <a href="#" class="video-play-button button-large" style="margin-left: 10px"><i class="icon ion-ios-fastforward"></i></a>
+    </div>
+  </ion-content>
+</ion-view>
+
+
   </ion-content>
 </ion-view>
