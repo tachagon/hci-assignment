@@ -166,7 +166,12 @@ angular.module('app.controllers', [])
 })
 
 .controller('audio-music', function($scope){
-
+	$scope.audios = [
+		{ title: "Smoke On The Water" },
+		{ title: "Angle with the shotgun" },
+		{ title: "Gife(Musketeer)" },
+		{ title: "Dancing(Musketeer)" }
+	];
 })
 
 .controller('audio-volume', function($scope){
