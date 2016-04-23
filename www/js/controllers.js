@@ -192,3 +192,19 @@ angular.module('app.controllers', [])
 .controller('digitaltv-settings', function($scope){
 
 })
+
+.controller('xtremer-home', function($scope){
+
+})
+
+.controller('xtremer-keyboard', function($scope){
+
+})
+
+.controller('xtremer-touch', function($scope){
+
+})
+
+.controller('xtremer-settings', function($scope){
+
+})

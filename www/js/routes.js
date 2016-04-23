@@ -298,6 +298,46 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.xtremerController.home', {
+    url: '/xtremer-home',
+    views: {
+      'home-tab': {
+        templateUrl: 'templates/xtremer/home-tab.html',
+        controller: 'xtremer-home'
+      }
+    }
+  })
+
+  .state('menu.xtremerController.keyboard', {
+    url: '/xtremer-keyboard',
+    views: {
+      'keyboard-tab': {
+        templateUrl: 'templates/xtremer/keyboard-tab.html',
+        controller: 'xtremer-keyboard'
+      }
+    }
+  })
+
+  .state('menu.xtremerController.touch', {
+    url: '/xtremer-touch',
+    views: {
+      'touch-tab': {
+        templateUrl: 'templates/xtremer/touch-tab.html',
+        controller: 'xtremer-touch'
+      }
+    }
+  })
+
+  .state('menu.xtremerController.settings', {
+    url: '/xtremer-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/xtremer/settings-tab.html',
+        controller: 'xtremer-settings'
+      }
+    }
+  })
+
   
 
 
