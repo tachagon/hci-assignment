@@ -1,7 +1,50 @@
 <ion-view view-title="Home">
   <ion-content class="padding" scroll="false">
-    <h1>Home</h1>
+    <div class="button-bar">
+    	<a class="button icon-left ion-ios-photos-outline button-stable">Menu</a>
+    	<a class="button icon-left ion-android-home">Home</a>
+    	<a class="button icon-left ion-arrow-return-left button-stable">Back</a>
+    </div>
 
-    <a href="" class="button button-balanced button-circle">ADD</a>
+    <div class="row row-center"><br><br><br>
+	<div id="joystick" style="width:200px;  position: absolute;left: 50%;margin-left: -100px;">
+	  <svg width="100%" height="100%" viewBox="0 0 100 100">
+	    <defs>
+	      <linearGradient id="grad1" x1="0%" y1="0%" x2="0%" y2="100%">
+	        <stop offset="0%" style="stop-color:rgb(16,16,16);stop-opacity:1" />
+	        <stop offset="100%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+	      </linearGradient>
+	      <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+	        <stop offset="0%" style="stop-color:rgb(240,240,240);stop-opacity:1" />
+	        <stop offset="100%" style="stop-color:rgb(16,16,16);stop-opacity:1" />
+	      </linearGradient>
+	      <linearGradient id="grad3" x1="0%" y1="0%" x2="0%" y2="100%">
+	        <stop offset="0%" style="stop-color:rgb(168,168,168);stop-opacity:1" />
+	        <stop offset="100%" style="stop-color:rgb(239,239,239);stop-opacity:1" />
+	      </linearGradient>
+	    </defs>
+	    <circle cx="50" cy="50" r="50" fill="url(#grad1)" />
+	    <circle cx="50" cy="50" r="47" fill="url(#grad2)" stroke="black" stroke-width="1.5px" />
+	    <circle cx="50" cy="50" r="44" fill="url(#grad3)" />
+	    <circle cx="50" cy="50" r="20" fill="#cccccc" stroke="black" stroke-width="1px"  />
+	    <path d="M50,14 54,22 46,22Z" fill="rgba(0,0,0,0.8)"  />
+	    <path d="M50,86 54,78 46,78Z" fill="rgba(0,0,0,0.8)"  />
+	    <path d="M14,50 22,54 22,46Z" fill="rgba(0,0,0,0.8)"  />
+	    <path d="M86,50 78,54 78,46Z" fill="rgba(0,0,0,0.8)"  />
+	  </svg>
+	</div>
+	</div><br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div class="button-bar">
+    	<a class="button icon ion-skip-backward button-stable"></a>
+    	<a class="button icon ion-xbox"></a>
+    	<a class="button icon ion-volume-medium button-stable"></a>
+    </div>
+
+    <div class="button-bar">
+    	<a class="button icon ion-skip-forward button-stable"></a>
+    	<a class="button icon ion-mouse"></a>
+    	<a class="button icon ion-volume-low button-stable"></a>
+    </div>
   </ion-content>
 </ion-view>
