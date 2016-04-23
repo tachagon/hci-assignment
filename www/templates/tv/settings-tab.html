@@ -1,5 +1,40 @@
 <ion-view view-title="TV Settings">
   <ion-content class="padding">
-    <h1>Settings</h1>
+
+    <ul class="list">
+
+      <li class="item item-toggle">
+        Power
+        <label class="toggle toggle-balanced">
+          <input type="checkbox">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+       </label>
+      </li>
+
+      <li class="item range range-positive">
+        <i class="icon ion-ios-sunny-outline"></i>
+        <input type="range" name="volume" min="0" max="100" value="33">
+        <i class="icon ion-ios-sunny"></i>
+      </li>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Input
+        </div>
+        <select>
+          <option>AV</option>
+          <option>HDMI1</option>
+          <option selected>HDMI2</option>
+          <option value="">USB1</option>
+          <option value="">USB2</option>
+        </select>
+      </label>
+      <!-- ./item -->
+
+    </ul>
+    <!-- .list -->
+
   </ion-content>
 </ion-view>

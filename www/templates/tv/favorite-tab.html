@@ -1,7 +1,17 @@
 <ion-view view-title="Favorite">
   <ion-content class="padding" scroll="false">
-    <h1>Favorite</h1>
 
-    <a href="" class="button button-balanced button-block">ADD</a>
+    <a href="" class="button button-balanced button-outline button-block">ADD</a>
+
+    <div class="list">
+        <a class="item item-button-right" ng-repeat="favorite in favorites">
+          {{favorite.number}} {{favorite.name}}
+          <button class="button button-stable button-outline">
+            <i class="ion-edit"></i>
+          </button>
+        </a>
+    </div>
+    <!-- ./list -->
+
   </ion-content>
 </ion-view>
