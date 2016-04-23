@@ -170,7 +170,12 @@ angular.module('app.controllers', [])
 })
 
 .controller('audio-music', function($scope){
-
+	$scope.audios = [
+		{ title: "Smoke On The Water" },
+		{ title: "Angle with the shotgun" },
+		{ title: "Gife(Musketeer)" },
+		{ title: "Dancing(Musketeer)" }
+	];
 })
 
 .controller('audio-volume', function($scope){
@@ -212,3 +217,16 @@ angular.module('app.controllers', [])
 .controller('xtremer-settings', function($scope){
 
 })
+
+.controller('vdo-home', function($scope){
+
+})
+
+.controller('vdo-sound', function($scope){
+
+})
+
+.controller('vdo-settings', function($scope){
+
+})
+
