@@ -1,42 +1,127 @@
 <ion-view view-title="Volume">
   <ion-content>
-    <h1>Volume</h1>
 
-	<div class="list">
-	  <div class="item range range-positive">
-	  	<h2>Volume  |</h2>
+	<div class="list">	
+		<!-- Volume buttom -->
+	  <div class="row item">
+	  		<div class="col col-10 center">
+          Volume
+        </div>
 
-	    <i class="icon ion-volume-low"></i>
-	    <input type="range" name="volume" min="0" max="100" value="50">
-	    <i class="icon ion-volume-high"></i>
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-minus"></i>
+          </button>
+        </div>
+
+        <div class="col col-70">
+          <div class="range">
+            <i class="icon ion-volume-low"></i>
+            <input type="range" name="volume" min="0" max="100" value="50">
+            <i class="icon ion-volume-high"></i>
+          </div>
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-plus"></i>
+          </button>
+        </div>
+        <!-- Volume buttom -->
 	  </div>
 
-	  <div class="item range range-positive">
-	  	<h2>Base           |</h2>
-	    <i class="icon ion-minus"></i>
-	    <input type="range" name="volume" min="0" max="100" value="50">
-	    <i class="icon ion-plus"></i>
+	  <li class="item item-toggle">
+        Mute
+        <label class="toggle toggle-balanced">
+          <input type="checkbox">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+       </label>
+      </li>
+
+		<!-- Base buttom -->
+	  <div class="row item">
+	  		<div class="col col-10">
+          Base
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-minus"></i>
+          </button>
+        </div>
+
+        <div class="col col-70">
+          <div class="range">
+            <i class="icon ion-volume-low"></i>
+            <input type="range" name="volume" min="0" max="100" value="50">
+            <i class="icon ion-volume-high"></i>
+          </div>
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-plus"></i>
+          </button>
+        </div>
+        <!-- Base buttom -->
 	  </div>
 
-	  <div class="item range range-positive">
-	  	<h2>Treble           |</h2>
-	    <i class="icon ion-minus"></i>
-	    <input type="range" name="volume" min="0" max="100" value="50">
-	    <i class="icon ion-plus"></i>
+	  <!-- Treble buttom -->
+	  <div class="row item">
+	  		<div class="col col-10">
+          Treble
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-minus"></i>
+          </button>
+        </div>
+
+        <div class="col col-70">
+          <div class="range">
+            <i class="icon ion-volume-low"></i>
+            <input type="range" name="volume" min="0" max="100" value="50">
+            <i class="icon ion-volume-high"></i>
+          </div>
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-plus"></i>
+          </button>
+        </div>
+        <!-- Treble buttom -->
 	  </div>
 
-	  <div class="item range range-positive">
-	  	<h2>Left           |</h2>
-	    <i class="icon ion-minus"></i>
-	    <input type="range" name="volume" min="0" max="100" value="50">
-	    <i class="icon ion-plus"></i>
-	  </div>
+	  <!-- Left-Right buttom -->
+	  <div class="row item">
+	  		<div class="col col-10">
+          Left-Right
+        </div>
 
-	  <div class="item range range-positive">
-	  	<h2>Right           |</h2>
-	    <i class="icon ion-minus"></i>
-	    <input type="range" name="volume" min="0" max="100" value="50">
-	    <i class="icon ion-plus"></i>
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-minus"></i>
+          </button>
+        </div>
+
+        <div class="col col-70">
+          <div class="range">
+            <i class="icon ion-volume-low"></i>
+            <input type="range" name="volume" min="0" max="100" value="50">
+            <i class="icon ion-volume-high"></i>
+          </div>
+        </div>
+
+        <div class="col col-10">
+          <button class="button button-stable button-outline button-block button-small">
+            <i class="ion-plus"></i>
+          </button>
+        </div>
+        <!-- Left-Right buttom -->
 	  </div>
 
 	</div>

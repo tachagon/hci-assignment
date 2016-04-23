@@ -2,7 +2,34 @@
   <ion-content class="padding">
     <h1>Settings</h1>
     
-     <ion-toggle ng-model="airplaneMode" toggle-class="toggle-balanced">Power</ion-toggle>
+     <!-- <ion-toggle ng-model="airplaneMode" toggle-class="toggle-balanced">Power</ion-toggle>
+		 -->
+     <ul class="list">
+
+      <li class="item item-toggle">
+        Power
+        <label class="toggle toggle-balanced">
+          <input type="checkbox">
+          <div class="track">
+            <div class="handle"></div>
+          </div>
+       </label>
+      </li>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Input
+        </div>
+        <select>
+        	<option>SD Card</option>
+        	<option selected>USB1</option>
+          <option value="">USB2</option>
+          <option value="">Sync</option>
+        </select>
+      </label>
+      <!-- ./item -->
+
+    </ul>
              
   </ion-content>
 </ion-view>
