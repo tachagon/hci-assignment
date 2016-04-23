@@ -154,7 +154,11 @@ angular.module('app.controllers', [])
 })
 
 .controller('tv-favorite', function($scope){
-
+	$scope.favorites = [
+		{number: "33", name: "CH3 HD"},
+		{number: "35", name: "CH7 HD"},
+		{number: "31", name: "CH ONE"}
+	];
 })
 
 .controller('tv-settings', function($scope){
