@@ -1,11 +1,31 @@
 <ion-view title="Digital TV Controller" id="page15">
     <ion-content padding="true" class="has-header">
-        <form class="list">
+        <!-- <form class="list">
             <ion-item class="range range-positive">
                 <i class="icon ion-volume-low"></i>
                 <input type="range" value="50" min="0" max="100">
                 <i class="icon ion-volume-high"></i>
             </ion-item>
-        </form>
+        </form> -->
     </ion-content>
 </ion-view>
+
+<ion-tabs class="tabs-positive tabs-icon-top">
+
+  <ion-tab title="Keypad" icon-on="ion-ios-keypad" icon-off="ion-ios-keypad-outline" href="/side-menu21/digital-tv-controller/digital-tv-keypad">
+    <ion-nav-view name="keypad-tab"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Volume" icon="ion-volume-high" href="/side-menu21/digital-tv-controller/digital-tv-volume">
+    <ion-nav-view name="volume-tab"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Favorite" icon-on="ion-ios-star" icon-off="ion-ios-star-outline" href="/side-menu21/digital-tv-controller/digital-tv-favorite">
+    <ion-nav-view name="favorite-tab"></ion-nav-view>
+  </ion-tab>
+
+  <ion-tab title="Settings" icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" href="/side-menu21/digital-tv-controller/digital-tv-settings">
+    <ion-nav-view name="settings-tab"></ion-nav-view>
+  </ion-tab>
+
+</ion-tabs>

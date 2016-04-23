@@ -176,3 +176,19 @@ angular.module('app.controllers', [])
 .controller('audio-settings', function($scope){
 
 })
+
+.controller('digitaltv-keypad', function($scope){
+
+})
+
+.controller('digitaltv-volume', function($scope){
+
+})
+
+.controller('digitaltv-favorite', function($scope){
+
+})
+
+.controller('digitaltv-settings', function($scope){
+
+})

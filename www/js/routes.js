@@ -258,6 +258,46 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.digitalTVController.keypad', {
+    url: '/digital-tv-keypad',
+    views: {
+      'keypad-tab': {
+        templateUrl: 'templates/digitaltv/keypad-tab.html',
+        controller: 'digitaltv-keypad'
+      }
+    }
+  })
+
+  .state('menu.digitalTVController.volume', {
+    url: '/digital-tv-volume',
+    views: {
+      'volume-tab': {
+        templateUrl: 'templates/digitaltv/volume-tab.html',
+        controller: 'digitaltv-volume'
+      }
+    }
+  })
+
+  .state('menu.digitalTVController.favorite', {
+    url: '/digital-tv-favorite',
+    views: {
+      'favorite-tab': {
+        templateUrl: 'templates/digitaltv/favorite-tab.html',
+        controller: 'digitaltv-favorite'
+      }
+    }
+  })
+
+  .state('menu.digitalTVController.settings', {
+    url: '/digital-tv-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/digitaltv/settings-tab.html',
+        controller: 'digitaltv-settings'
+      }
+    }
+  })
+
   
 
 
