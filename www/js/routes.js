@@ -7,8 +7,8 @@ angular.module('app.routes', [])
   // Set up the various states which the app can be in.
   // Each state's controller can be found in controllers.js
   $stateProvider
-    
-  
+
+
 
       .state('home', {
     url: '/home',
@@ -178,8 +178,92 @@ angular.module('app.routes', [])
     }
   })
 
-$urlRouterProvider.otherwise('/home')
+  .state('menu.tVController.keypad', {
+    url: '/tv-keypad',
+    views: {
+      'keypad-tab': {
+        templateUrl: 'templates/tv/keypad-tab.html',
+        controller: 'tv-keypad'
+      }
+    }
+  })
+
+  .state('menu.tVController.volume', {
+    url: '/tv-volume',
+    views: {
+      'volume-tab': {
+        templateUrl: 'templates/tv/volume-tab.html',
+        controller: 'tv-volume'
+      }
+    }
+  })
+
+  .state('menu.tVController.favorite', {
+    url: '/tv-favorite',
+    views: {
+      'favorite-tab': {
+        templateUrl: 'templates/tv/favorite-tab.html',
+        controller: 'tv-favorite'
+      }
+    }
+  })
+
+  .state('menu.tVController.settings', {
+    url: '/tv-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/tv/settings-tab.html',
+        controller: 'tv-settings'
+      }
+    }
+  })
+
+  .state('menu.audioController.home', {
+      url: '/audio-home',
+      views: {
+        'home-tab': {
+          templateUrl: 'templates/audio/home-tab.html',
+          controller: 'audio-home'
+        }
+      }
+    })
+
+  .state('menu.audioController.music', {
+    url: '/audio-music',
+    views: {
+      'music-tab': {
+        templateUrl: 'templates/audio/music-tab.html',
+        controller: 'audio-music'
+      }
+    }
+  })
+
+  .state('menu.audioController.volume', {
+    url: '/audio-volume',
+    views: {
+      'volume-tab': {
+        templateUrl: 'templates/audio/volume-tab.html',
+        controller: 'audio-volume'
+      }
+    }
+  })
+
+  .state('menu.audioController.settings', {
+    url: '/audio-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/audio/settings-tab.html',
+        controller: 'audio-settings'
+      }
+    }
+  })
 
   
+
+
+
+$urlRouterProvider.otherwise('/home')
+
+
 
 });
