@@ -208,3 +208,15 @@ angular.module('app.controllers', [])
 .controller('xtremer-settings', function($scope){
 
 })
+
+.controller('vdo-home', function($scope){
+
+})
+
+.controller('vdo-sound', function($scope){
+
+})
+
+.controller('vdo-settings', function($scope){
+
+})

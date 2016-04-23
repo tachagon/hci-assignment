@@ -338,6 +338,36 @@ angular.module('app.routes', [])
     }
   })
 
+  .state('menu.vDOController.home', {
+    url: '/vdo-home',
+    views: {
+      'home-tab': {
+        templateUrl: 'templates/vdo/home-tab.html',
+        controller: 'vdo-home'
+      }
+    }
+  })
+
+  .state('menu.vDOController.sound', {
+    url: '/vdo-sound',
+    views: {
+      'sound-tab': {
+        templateUrl: 'templates/vdo/sound-tab.html',
+        controller: 'vdo-sound'
+      }
+    }
+  })
+
+  .state('menu.vDOController.settings', {
+    url: '/vdo-settings',
+    views: {
+      'settings-tab': {
+        templateUrl: 'templates/vdo/settings-tab.html',
+        controller: 'vdo-settings'
+      }
+    }
+  })
+
   
 
 
