@@ -13,14 +13,38 @@
             <div class="title">Menu</div>
         </ion-header-bar>
         <ion-content padding="false" class="side-menu-left has-header">
+
             <ion-list>
-                <ion-item ui-sref="menu.audio" menu-close="">Audio</ion-item>
-                <ion-item ui-sref="menu.digitalTV" menu-close="">Digital TV</ion-item>
-                <ion-item ui-sref="menu.tV" menu-close="">TV</ion-item>
-                <ion-item ui-sref="menu.vDO" menu-close="">VDO</ion-item>
-                <ion-item ui-sref="menu.xtremer" menu-close="">Xtremer</ion-item>
-                <ion-item ui-sref="home" menu-close="">Logout</ion-item>
+
+                <ion-item ui-sref="menu.audio" menu-close="" class="item item-icon-left">
+                    <i class="ion-ios-musical-note"></i>
+                    Audio
+                </ion-item>
+
+                <!-- <ion-item ui-sref="menu.digitalTV" menu-close="">Digital TV</ion-item> -->
+
+                <ion-item ui-sref="menu.tV" menu-close="" class="item item-icon-left">
+                    <i class="ion-ios-monitor-outline"></i>
+                    TV
+                </ion-item>
+
+                <ion-item ui-sref="menu.vDO" menu-close="" class="item item-icon-left">
+                    <i class="ion-ios-film-outline"></i>
+                    VDO
+                </ion-item>
+
+                <ion-item ui-sref="menu.xtremer" menu-close="" class="item item-icon-left">
+                    <i class="ion-ios-game-controller-b-outline"></i>
+                    Xtremer
+                </ion-item>
+
+                <ion-item ui-sref="home" menu-close="" class="item item-icon-left" style="color: red;">
+                    <i class="ion-log-out"></i>
+                    Logout
+                </ion-item>
+
             </ion-list>
+
         </ion-content>
     </ion-side-menu>
 </ion-side-menus>
